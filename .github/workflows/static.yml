@@ -32,9 +32,12 @@ jobs:
           mkdir -p deploy
           cp -r detqel/* deploy/        # Copy all website files
           cp -r s deploy/s              # Copy fonts folder
-          cp custoimcss1.css deploy/    # Copy custom CSS files
-          cp custoimcss2.css deploy/
-          cp custoimcss3.css deploy/
+          cp css deploy/    # Copy custom CSS files
+          cp css-1 deploy/
+          cp css-2 deploy/
+          cp css-3 deploy/
+          cp css2 deploy/
+          cp css2-1 deploy/
           cp CNAME deploy/              # Include CNAME if required
 
       - name: Upload artifact
